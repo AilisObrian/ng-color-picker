@@ -3,7 +3,7 @@ Angular 2 Color Picker Directive/Component with no dependencies required.<br />
 
 # Installation
 ```bash
-npm i --save ng-color-picker
+npm i --save arbi-ng2-color-picker
 ```
 
 # Usage
@@ -18,7 +18,7 @@ npm i --save ng-color-picker
 
 * Add ColorPickerModule in your app.module.ts:
 ```javascript
-import {ColorPickerModule} from 'ng-color-picker';
+import {ColorPickerModule} from 'arbi-ng2-color-picker';
 
 @NgModule({
     ...
@@ -29,7 +29,7 @@ import {ColorPickerModule} from 'ng-color-picker';
 * Set color the variable. You can use ColorPickerService in your component if you want extra functions.
 ```javascript
 import {Component} from '@angular/core';
-import {ColorPickerService} from 'ng-color-picker';
+import {ColorPickerService} from 'arbi-ng2-color-picker';
 
 @Component({
     selector: 'my-app',
@@ -45,7 +45,7 @@ export class AppComponent {
 
 #Build
 ```bash
-git clone https://github.com/zskhan/ng-color-picker
+git clone https://github.com/powercover/arbi-ng2-color-picker
 cd ng-color-picker
 npm i && npm run peerinstall
 npm run build
